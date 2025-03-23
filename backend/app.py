@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for frontend communication
 
 # Configure Google Gemini API
-GENAI_API_KEY = "AIzaSyAenl5an6jNLiqL9S2XH70QZTwvYIpWU-0"  # Replace with your valid API Key
+GENAI_API_KEY = "APIKEY"  # Replace with your valid API Key
 genai.configure(api_key=GENAI_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-pro")
 
